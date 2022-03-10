@@ -49,10 +49,10 @@ const TimezoneSelect = ({
             label = prefix
             break
           case 'altName':
-            label = `${prefix} ${altName?.length ? `(${altName})` : ''}`
+            label = `${altName?.length ? `(${altName})` : ''}`
             break
           case 'abbrev':
-            label = `${prefix} ${abbr?.length < 5 ? `(${abbr})` : ''}`
+            label = `${abbr?.length < 5 ? `(${abbr})` : ''}`
             break
           default:
             label = `${prefix}`
