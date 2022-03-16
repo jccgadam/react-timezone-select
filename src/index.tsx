@@ -60,7 +60,7 @@ const TimezoneSelect = ({
 
         selectOptions.push({
           value: tz.name,
-          label: label,
+          label: tz.name,
           offset: tz.current.offset,
           abbrev: abbr,
           altName: altName,
